@@ -12,5 +12,8 @@ I want to follow a procedure and below is a dumping ground for how I want it to 
 Intend to use react and some type of backend. If I want to I could design a database and API that has all my content and pull from it, and also make it easy to update.
 Likely get all the frontend done and store content locally, and attach backend later. (frontend experience is higher priority).
   Backend would be useful to use a new language.
+- document all my strategy, testing i perform, and issues i face
 ### Finalise
-Deploy to hosting provider like AWS (this might be at the same time i finish the frontend and then work on backend)
+Maybe make it live. 
+Expand and see what new things I can learn with it.
+Ask gpt4 to critique it :)
