@@ -14,6 +14,5 @@ Likely get all the frontend done and store content locally, and attach backend l
   Backend would be useful to use a new language.
 - document all my strategy, testing i perform, and issues i face
 ### Finalise
-Maybe make it live. 
 Expand and see what new things I can learn with it.
 Ask gpt4 to critique it :)
