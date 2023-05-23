@@ -1,4 +1,12 @@
-var website;
+"use strict";
+let website;
 website = "flyNn's wEbSite";
 website = website.toLowerCase();
 console.log(website);
+let listNums = [1, 2, 3];
+let results = listNums.map(num => num + 1);
+let oneEvenNum = listNums.find(num => num % 2 === 0);
+let evenNums = listNums.filter(num => num % 2 === 0);
+console.log("All numbers +1: " + results);
+console.log("An even number: " + oneEvenNum);
+console.log("All even numbers: " + evenNums);
