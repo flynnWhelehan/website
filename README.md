@@ -1,5 +1,6 @@
 # website
 My personal website for all things Flynn 
+https://flynnwhelehan.github.io/website/
 
 I plan to sort this out between May and July as a mini project and something I have wanted to do for a long time.
 
