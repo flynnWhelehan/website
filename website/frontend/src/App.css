@@ -40,6 +40,8 @@ body {
   background-color: #4fa1a1; /* Using your color */
   overflow: auto;
   color: white;
+  position: sticky;
+  top: 0;
 }
 .navbar a {
   float: left;
