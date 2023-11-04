@@ -1,8 +1,7 @@
 ## Description
 
-Summary of the changes and the action this pull request satisfies. Please also include relevant motivation and context.
-
-Fixes # (issue)
+Summary of the changes and the action this pull request satisfies. 
+Please also include relevant motivation and context.
 
 ## Type of change
 
