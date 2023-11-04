@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import loadingIcon from './images/loadingIcon.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={loadingIcon} className="App-logo" alt="loadingIcon" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Website in progress...
         </p>
+
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/flynnwhelehan/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Connect with Flynn
         </a>
       </header>
+
     </div>
   );
 }
