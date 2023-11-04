@@ -40,6 +40,7 @@
     "web-vitals": "^2.1.4"
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-class-properties": "^7.22.5",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.22.11",
     "@babel/plugin-transform-numeric-separator": "^7.22.11",
