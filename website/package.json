@@ -1,5 +1,5 @@
 {
-  "homepage": "http://flynnWhelehan.github.io/Website",
+  "homepage": "http://flynnWhelehan.github.io/website",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -40,6 +40,9 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   }
 }
