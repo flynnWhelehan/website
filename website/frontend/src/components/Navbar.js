@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './styles/Navbar.css';
 import { Link } from 'react-router-dom';
 import FwLogo from '../images/favicon/favicon-32x32.png';
 

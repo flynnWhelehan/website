@@ -13,7 +13,8 @@ function App() {
         <h1>The FW Project</h1>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" component={About} />
+          <Route path="/website" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
 
       </div>
