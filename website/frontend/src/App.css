@@ -4,6 +4,7 @@ body {
   font-size: 21px; 
   font-weight: bold; 
   font-family: 'Exo 2', sans-serif; 
+  background-color: #4fa1a1;
 }
 
 .App {
@@ -37,11 +38,17 @@ body {
 }
 
 .navbar {
-  background-color: #4fa1a1; /* Using your color */
+  background-color: #177777; 
   overflow: auto;
   color: white;
   position: sticky;
-  top: 0;
+  top: 10px;
+  border-radius: 15px; 
+  margin: 10px; 
+  max-width: 300px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar a {
   float: left;
