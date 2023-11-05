@@ -8,6 +8,8 @@ function Home() {
         <title>Flynn's Homepage</title>
         <meta name="The hub for the FW website project." content="Web site in progress..." />
       </Helmet>
+      <h1>Welcome to the Home Page</h1>
+      <p>This is the home page of the website.</p>
     </div>
   );
 }
