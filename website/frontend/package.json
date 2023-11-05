@@ -48,6 +48,8 @@
     "@babel/plugin-transform-private-methods": "^7.22.5",
     "@jridgewell/sourcemap-codec": "^1.4.15",
     "@rollup/plugin-terser": "^0.4.4",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.18.0",
     "workbox-cacheable-response": "^6.6.0"
   }
 }
