@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './styles/Navbar.css';
+import './styles/navbar.css';
 import { Link } from 'react-router-dom';
 import FwLogo from '../images/favicon/favicon-32x32.png';
 
@@ -46,12 +46,14 @@ function Navbar() {
       <Link to="/">
         <img src={FwLogo} alt="FW Logo / Home" className={`logo ${shrink ? 'shrink' : ''}`} />
       </Link>
-      <div className="links-container">
-        <Link to="/about" className="navbar-link">About</Link>
-        <a href="https://www.linkedin.com/in/flynnwhelehan/" className="navbar-link">Contact</a>
-      </div>
-      <div className={`current-title-container ${shrink && currentTitle ? 'shrink' : ''}`}>
-        <span className="current-title">{currentTitle}</span>
+      <div className="title-and-links">
+        <div className="links-container">
+          <Link to="/about" className="navbar-link">About</Link>
+          <a href="https://www.linkedin.com/in/flynnwhelehan/" className="navbar-link">Contact</a>
+        </div>
+        <div className={`current-title-container ${shrink && currentTitle ? 'shrink' : ''}`}>
+          <span className="current-title">{currentTitle}</span>
+        </div>
       </div>
     </div>
   );

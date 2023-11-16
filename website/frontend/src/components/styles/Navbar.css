@@ -2,8 +2,9 @@
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
   justify-content: space-between;
+  display: grid;
+  grid-template-columns: 0.25fr 3fr 2fr;
   align-items: center;
   padding: 20px;
   background-color: transparent;
@@ -34,12 +35,20 @@
 .logo {
   height: 32px;
   width: 32px;
+  grid-column: 1;
 }
 
 .links-container {
   display: flex;
-  justify-content: flex-start;
-  margin-left: 40px; 
+  justify-content: flex-end;
+  margin-right: auto;
+}
+
+.title-and-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
 }
 
 .current-title-container {
@@ -51,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px; /* Add some padding to create space around the text */
+  padding: 5px 12px; /* Add some padding to create space around the text */
   margin: auto; /* Add this to center the title */
 }
 
