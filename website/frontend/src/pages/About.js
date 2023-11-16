@@ -27,15 +27,6 @@ function About() {
 
           <Divider variant="middle" />
 
-          <Typography variant="h5" component="h2" gutterBottom>
-            Our Mission
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-            {aboutContent.mission}
-          </Typography>
-
-          <Divider variant="middle" />
-
         </Box>
       </Container>
     </Box>
