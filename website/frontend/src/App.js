@@ -3,14 +3,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar/>
-        <h1>The FW Project</h1>
+        <h1 className="title">The FW Project</h1>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/website" element={<Home />} />
