@@ -50,7 +50,7 @@ function Navbar() {
         <Link to="/about" className="navbar-link">About</Link>
         <a href="https://www.linkedin.com/in/flynnwhelehan/" className="navbar-link">Contact</a>
       </div>
-      <div className="current-title-container">
+      <div className={`current-title-container ${shrink && currentTitle ? 'shrink' : ''}`}>
         <span className="current-title">{currentTitle}</span>
       </div>
     </div>
