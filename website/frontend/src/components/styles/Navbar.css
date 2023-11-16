@@ -39,15 +39,18 @@
 .links-container {
   display: flex;
   justify-content: flex-start;
-  width: 100%;
+  width: 10%;
   margin-left: 40px; 
 }
 
 .current-title-container {
-  flex-grow: 1;
-  text-align: center;
   /* Add overflow and text-overflow properties */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  /* Center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
