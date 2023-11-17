@@ -37,6 +37,13 @@
   height: 32px;
   width: 32px;
   grid-column: 1;
+  border: 2px solid #ffffff;
+  border-radius: 50%; /* Makes the border circular */
+  box-shadow: 0 0 12px #000; /* Adds a shadow around the logo */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Scales the logo up when hovered over */
 }
 
 .links-container {
