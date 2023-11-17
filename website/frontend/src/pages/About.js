@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Container, Typography, Box, Divider } from '@mui/material';
-import aboutContent from '../content/about/AboutContent';
+import { Container, Typography, Box, Paper } from '@mui/material';
+import { aboutContent, missionContent } from '../content/about/AboutContent';
 
 
 function About() {
@@ -9,24 +9,22 @@ function About() {
     <Box
       display="flex"
       flexDirection="column"
-      minHeight="100vh"
+      minHeight="21vh"
+      alignItems="center"
+      justifyContent="center"
     >
       <Container>
         <Helmet>
-          <title>{aboutContent.title}</title>
-          <meta name="All about FW." content={aboutContent.intro} />
+          <title>About</title>
+          <meta name="All about FW Project." content={aboutContent.intro} />
         </Helmet>
-
-        <Box my={4}>
-          <Typography variant="h4" component="h1" gutterBottom>
-            About
-          </Typography>
-          <Typography variant="body1" gutterBottom>
-            {aboutContent.about}
-          </Typography>
-
-          <Divider variant="middle" />
-
+        <h1 className="title">About</h1>
+        <Box mb={2}>
+          <Paper elevation={3} style={{ padding: '12px' }}>
+            <Typography variant="body1" gutterBottom>
+              {aboutContent.about}
+            </Typography>
+          </Paper>
         </Box>
       </Container>
     </Box>

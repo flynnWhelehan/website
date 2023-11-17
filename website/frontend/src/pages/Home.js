@@ -10,6 +10,7 @@ function Home() {
         <meta name="The hub for the FW website project." content="Web site in progress..." />
       </Helmet>
       <header className="App-header">
+        <h1 className="title">The FW Project</h1>
         <img src={loadingIcon} className="App-logo" alt="loadingIcon" />
         <p>Website in progress...</p>
         <a
