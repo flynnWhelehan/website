@@ -7,7 +7,7 @@ function Footer() {
     <AppBar position="static" className="footer" style={{ background: '#878787' }}>
       <Container>
         <Toolbar>
-          <Typography variant="body1" color="inherit">
+          <Typography variant="body1" color="inherit" sx={{ flexGrow: 1 }}>
             2023 FW Technology
           </Typography>
         </Toolbar>
