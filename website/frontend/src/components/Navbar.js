@@ -43,7 +43,7 @@ function Navbar() {
 
   return (
     <div className={`navbar ${shrink ? 'shrink' : ''} ${opaque ? 'opaque' : ''}`}>
-      <Link to="/">
+      <Link to="/website">
         <img src={FwLogo} alt="FW Logo / Home" className={`logo ${shrink ? 'shrink' : ''}`} />
       </Link>
       <div className="title-and-links">

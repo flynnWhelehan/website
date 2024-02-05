@@ -13,7 +13,6 @@ function App() {
         <Navbar/>
         <h1 className="title">The FW Project</h1>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/website" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
