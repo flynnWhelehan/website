@@ -8,7 +8,7 @@ function Footer() {
       <Container>
         <Toolbar>
           <Typography variant="body1" color="inherit" sx={{ flexGrow: 1 }}>
-            2023 FW Technology
+            © 2024 FW Technology
           </Typography>
         </Toolbar>
       </Container>
