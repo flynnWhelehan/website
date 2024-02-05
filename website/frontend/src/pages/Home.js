@@ -22,8 +22,7 @@ function Home() {
         </a>
       </header>
       <body>
-        <h1 className="title spaced-title">Test Title 1</h1>
-        <h1 className="title">Test Title 2</h1>
+
       </body>
     </div>
   );
