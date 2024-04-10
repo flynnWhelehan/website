@@ -1,0 +1,44 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px 100px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project-panel {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.project-panel img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.project-panel:hover img {
+    transform: scale(1.1);
+}
+
+.project-panel-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-panel:hover .project-panel-hover {
+    opacity: 1;
+}

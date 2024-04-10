@@ -1,7 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+import './Projects.css';
+import myairopsLogo from '../images/myairops-logo.jpeg';
 
 function Projects() {
+    const projects = [
+        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/project1' },
+        { name: 'Project 2', thumbnail: '/path/to/thumbnail2.png', link: '/project2' },
+    ];
+
     return (
         <div>
             <Helmet>
@@ -9,7 +17,16 @@ function Projects() {
                 <meta name="Projects and Experience" content="Web site in progress..." />
             </Helmet>
             <h1>Projects and Experience</h1>
-            <p>This is the projects and experience page.</p>
+            <div className="project-grid">
+                {projects.map((project, index) => (
+                    <Link to={project.link} key={index} className="project-panel">
+                        <img src={project.thumbnail} alt={project.name} />
+                        <div className="project-panel-hover">
+                            <div className="project-panel-text">{project.name}</div>
+                        </div>
+                    </Link>
+                ))}
+            </div>
         </div>
     );
 }
