@@ -6,8 +6,8 @@ import myairopsLogo from '../images/myairops-logo.jpeg';
 
 function Projects() {
     const projects = [
-        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/project1' },
-        { name: 'Project 2', thumbnail: '/path/to/thumbnail2.png', link: '/project2' },
+        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/project1', comingSoon: true},
+        { name: 'Project 2', thumbnail: '/path/to/thumbnail2.png', link: '/project2'},
     ];
 
     return (
@@ -19,9 +19,9 @@ function Projects() {
             <h1>Projects and Experience</h1>
             <div className="project-grid">
                 {projects.map((project, index) => (
-                    <Link to={project.link} key={index} className="project-panel">
+                    <Link to={project.link} key={index} className={`project-panel ${project.comingSoon ? 'coming-soon' : ''}`}>
                         <img src={project.thumbnail} alt={project.name} />
-                        <div className="project-panel-hover">
+                        <div className={`project-panel-hover ${project.hoverStyle}`}>
                             <div className="project-panel-text">{project.name}</div>
                         </div>
                     </Link>
