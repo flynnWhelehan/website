@@ -5,6 +5,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
+import MyairopsProject from './pages/Projects/MyairopsProject';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/website" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/myairops-project" element={<MyairopsProject />} />
         </Routes>
       </div>
     </Router>
