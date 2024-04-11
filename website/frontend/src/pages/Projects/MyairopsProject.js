@@ -16,7 +16,7 @@ function MyairopsProject() {
 
             <section id="role">
                 <h2 className="title">My Role</h2>
-                <p>I lead the delivery of an AI-powered data processing solution at Myairops, a software provider for flight operations management.</p>
+                <p>I lead the delivery of an AI-powered data processing solution at <a href="https://myairops.com/">Myairops</a>, a software provider for flight operations management.</p>            
             </section>
 
             <section id="video-interview">
