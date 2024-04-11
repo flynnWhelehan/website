@@ -12,7 +12,6 @@ function App() {
     <Router>
       <div className="App">
         <Navbar/>
-        <h1 className="title">The FW Project</h1>
         <Routes>
           <Route path="/website" element={<Home />} />
           <Route path="/about" element={<About />} />
