@@ -2,7 +2,7 @@
 
 ## 11th April 2024 
 - Added a projects/experience page
-- Development started on a showcase of Myairops placement
+- Initial page for Myairops Placement is live
 
 ## [16th November 2023](https://youtu.be/qRALGXeKswU?si=TwCjTTv4bLt_MObO)
 - Navigation bar rework
