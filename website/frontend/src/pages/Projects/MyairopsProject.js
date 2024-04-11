@@ -7,14 +7,14 @@ function MyairopsProject() {
     return (
         <div>
             <Helmet>
-                <title>Myairops Project - Flynn's Portfolio</title>
+                <title>Myairops Project</title>
                 <meta name="description" content="Details about my project at Myairops" />
             </Helmet>
             <h1>Myairops Project</h1>
 
             <section id="role">
                 <h2>My Role</h2>
-                <p>...</p>
+                <p>I lead the delivery of an AI-powered data processing solution at Myairops, a software provider for flight operations management.</p>
             </section>
 
             <section id="video-interview">
@@ -26,8 +26,18 @@ function MyairopsProject() {
             </section>
 
             <section id="technology">
-                <h2>Technology Used</h2>
-                <p>...</p>
+                <h2>Technology and Skills</h2>
+                <p>
+                    ❖ DevOps: Managing the build and deployment pipelines of our repository through Azure DevOps.<br />
+                    ❖ Product Ownership: Taking charge of the product ownership role by creating well-defined epic, feature, user story, and bug work items inline with demand.<br />
+                    ❖ Agile: Streamlining project operations with Kanban strategy.<br />
+                    ❖ AI Services: Training data classification and extraction models with Azure Document Intelligence to meet specific processing requirements.<br />
+                    ❖ Cloud Services: Making our solution available through deployed Azure Functions and Power Automate workflows, and interacting with cloud APIs.<br />
+                    ❖ C# Development: Developing an effective set of data models and services with sophisticated software design techniques like dependency injection.<br />
+                    ❖ Collaboration: Participation in the agile engineering methodology employed by Myairops.<br />
+                    ❖ Industry procedures: Engaged in real-world releases, bug resolutions, and company challenges.<br />
+                    ❖ Research and Development: Conducted vital R&D for the project's first phase, resulting in a comprehensive research report and a successful proof of concept.
+                </p>
             </section>
 
             <section id="objectives">
