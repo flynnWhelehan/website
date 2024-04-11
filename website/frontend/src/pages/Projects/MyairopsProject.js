@@ -10,23 +10,25 @@ function MyairopsProject() {
                 <title>Myairops Project</title>
                 <meta name="description" content="Details about my project at Myairops" />
             </Helmet>
-            <h1>Myairops Project</h1>
+            <h1>Myairops Project<br/> 
+                [July 2023 to Present]
+            </h1>
 
             <section id="role">
-                <h2>My Role</h2>
+                <h2 className="title">My Role</h2>
                 <p>I lead the delivery of an AI-powered data processing solution at Myairops, a software provider for flight operations management.</p>
             </section>
 
             <section id="video-interview">
-                <h2>Video Interview</h2>
+                <h2 className="title">Video Interview</h2>
                 <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/pn0uTpebG5I' />
+                    <ReactPlayer className='react-player' url='https://youtu.be/RcioWj4IRUc' />
                     <a className='blog-link' href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Click here to view the full blog post</a>
                 </div>
             </section>
 
             <section id="technology">
-                <h2>Technology and Skills</h2>
+                <h2 className="title">Technology and Skills</h2>
                 <p>
                     ❖ DevOps: Managing the build and deployment pipelines of our repository through Azure DevOps.<br />
                     ❖ Product Ownership: Taking charge of the product ownership role by creating well-defined epic, feature, user story, and bug work items inline with demand.<br />
@@ -41,17 +43,17 @@ function MyairopsProject() {
             </section>
 
             <section id="objectives">
-                <h2>Stretch Objectives</h2>
+                <h2 className="title">Stretch Objectives</h2>
                 <p>...</p>
             </section>
 
             <section id="interviewing">
-                <h2>Interviewing Candidates</h2>
+                <h2 className="title">Interviewing Candidates</h2>
                 <p>...</p>
             </section>
 
             <section id="challenges">
-                <h2>Challenges</h2>
+                <h2 className="title">Challenges</h2>
                 <p>...</p>
             </section>
         </div>
