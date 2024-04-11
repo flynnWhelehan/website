@@ -1,5 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import ReactPlayer from 'react-player';
+import './MyairopsProject.css';
 
 function MyairopsProject() {
     return (
@@ -17,9 +19,12 @@ function MyairopsProject() {
 
             <section id="video-interview">
                 <h2>Video Interview</h2>
-                <p>...</p>
+                <div className='video-container'>
+                    <ReactPlayer className='react-player' url='https://youtu.be/pn0uTpebG5I' />
+                </div>
                 <a href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Read the full blog post</a>
             </section>
+            
 
             <section id="technology">
                 <h2>Technology Used</h2>

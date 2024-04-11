@@ -1,0 +1,17 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    max-width: 40%;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.react-player {
+    border-radius: 15px;
+    overflow: hidden;
+}
