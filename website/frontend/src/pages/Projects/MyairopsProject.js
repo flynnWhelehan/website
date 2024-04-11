@@ -34,7 +34,7 @@ function MyairopsProject() {
             <div className="section-container">
                 <section id="technology">
                     <ul>
-                        <li className="bullet-header">DevOps:<br/></li>
+                        <li className="bullet-header"><br/>DevOps:<br/></li>
                             <li className="bullet-text">Managing the build and deployment pipelines of our repository through Azure DevOps.</li>
                         <li className="bullet-header"><br/>Product Ownership:</li>
                             <li className="bullet-text">Taking charge of the product ownership role by creating well-defined epic, feature, user story, and bug work items inline with demand.</li>
