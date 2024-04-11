@@ -9,6 +9,7 @@ function Home() {
         <title>Flynn's Homepage</title>
         <meta name="The hub for the FW website project." content="Web site in progress..." />
       </Helmet>
+      <h1 className="title">The FW Project</h1>
       <header className="App-header">
         <img src={loadingIcon} className="App-logo" alt="loadingIcon" />
         <p>Website in progress...</p>

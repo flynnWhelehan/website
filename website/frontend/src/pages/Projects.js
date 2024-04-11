@@ -6,7 +6,7 @@ import myairopsLogo from '../images/myairops-logo.jpeg';
 
 function Projects() {
     const projects = [
-        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/projectMyairops', comingSoon: true},
+        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
     ];
 
     return (
