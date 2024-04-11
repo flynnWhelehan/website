@@ -28,8 +28,22 @@
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    animation: pulse 5s infinite;
+    transition: transform 0.3s ease-in-out;
 }
 
 section {
     margin-bottom: 5%;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
