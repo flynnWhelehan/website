@@ -15,6 +15,12 @@ function MyairopsProject() {
                 <p>...</p>
             </section>
 
+            <section id="video-interview">
+                <h2>Video Interview</h2>
+                <p>...</p>
+                <a href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Read the full blog post</a>
+            </section>
+
             <section id="technology">
                 <h2>Technology Used</h2>
                 <p>...</p>
@@ -33,12 +39,6 @@ function MyairopsProject() {
             <section id="challenges">
                 <h2>Challenges</h2>
                 <p>...</p>
-            </section>
-
-            <section id="video-interview">
-                <h2>Video Interview</h2>
-                <p>...</p>
-                <a href="link-to-full-blog-post">Read the full blog post</a>
             </section>
         </div>
     );
