@@ -55,27 +55,6 @@ function MyairopsProject() {
                     </ul>
                 </section>
             </div>
-
-            <h2 className="title">Stretch Objectives</h2>
-            <div className="section-container">
-                <section id="objectives">
-                    <p>...</p>
-                </section>
-            </div>
-
-            <h2 className="title">Interviewing Candidates</h2>
-            <div className="section-container">
-                <section id="interviewing">
-                    <p>...</p>
-                </section>
-            </div>
-
-            <h2 className="title">Challenges</h2>
-            <div className="section-container">
-                <section id="challenges">
-                    <p>...</p>
-                </section>
-            </div>
         </div>
     );
 }
