@@ -11,9 +11,11 @@ function MyairopsProject() {
                 <meta name="description" content="Details about my project at Myairops" />
             </Helmet>
             <h1>
-                Myairops<br/> 
-                [July 2023 to Present]
+                Myairops Industrial Placement<br/> 
+                <span className="small-text">[July 2023 to Present]</span>
             </h1>
+
+            <div className="section-break-line" />
 
             <h2 className="title">My Role</h2>
             <div className="section-container">

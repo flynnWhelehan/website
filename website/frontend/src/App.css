@@ -8,6 +8,10 @@ body {
   background-color: #4fa1a1;
 }
 
+.small-text {
+  font-size: 0.75em;
+}
+
 .App-header h1 {
   margin-top: 0;
   margin-bottom: 0;
