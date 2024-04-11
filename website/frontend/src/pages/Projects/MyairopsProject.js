@@ -21,10 +21,9 @@ function MyairopsProject() {
                 <h2>Video Interview</h2>
                 <div className='video-container'>
                     <ReactPlayer className='react-player' url='https://youtu.be/pn0uTpebG5I' />
+                    <a className='blog-link' href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Click here to view the full blog post</a>
                 </div>
-                <a href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Read the full blog post</a>
             </section>
-            
 
             <section id="technology">
                 <h2>Technology Used</h2>
