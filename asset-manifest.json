@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f200d3dc.css",
-    "main.js": "/website/static/js/main.554bf799.js",
+    "main.css": "/website/static/css/main.69aec871.css",
+    "main.js": "/website/static/js/main.3390b2d3.js",
     "static/js/787.c922dae8.chunk.js": "/website/static/js/787.c922dae8.chunk.js",
+    "static/media/myairops-logo.jpeg": "/website/static/media/myairops-logo.a604ef01eab334f71d5e.jpeg",
     "static/media/loadingIcon.svg": "/website/static/media/loadingIcon.498a66909d229cd1a3dd3f3477b0c9da.svg",
     "index.html": "/website/index.html",
-    "main.f200d3dc.css.map": "/website/static/css/main.f200d3dc.css.map",
-    "main.554bf799.js.map": "/website/static/js/main.554bf799.js.map",
+    "main.69aec871.css.map": "/website/static/css/main.69aec871.css.map",
+    "main.3390b2d3.js.map": "/website/static/js/main.3390b2d3.js.map",
     "787.c922dae8.chunk.js.map": "/website/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f200d3dc.css",
-    "static/js/main.554bf799.js"
+    "static/css/main.69aec871.css",
+    "static/js/main.3390b2d3.js"
   ]
 }
