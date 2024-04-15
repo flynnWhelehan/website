@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import './Projects.css';
+import './Styles/Projects.css';
 import myairopsLogo from '../images/myairops-logo.jpeg';
 
 function Projects() {
