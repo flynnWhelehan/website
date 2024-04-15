@@ -3,7 +3,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
+import MyairopsProject from './pages/Projects/MyairopsProject';
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
       <div className="App">
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/website" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/myairops-project" element={<MyairopsProject />} />
         </Routes>
       </div>
     </Router>
@@ -21,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-

@@ -23,3 +23,8 @@ build/
 *yarn-error.log*
 
 .vscode/
+.vs/
+*.sqlite
+*.json
+*.vsidx
+*.wsuo
