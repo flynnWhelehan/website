@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.d2162bcb.css",
-    "main.js": "/website/static/js/main.50e49dc5.js",
+    "main.css": "/website/static/css/main.ac3276aa.css",
+    "main.js": "/website/static/js/main.283a876b.js",
     "reactPlayerYouTube.js": "/website/static/js/reactPlayerYouTube.5b9ead27.chunk.js",
     "reactPlayerSoundCloud.js": "/website/static/js/reactPlayerSoundCloud.bb609069.chunk.js",
     "reactPlayerVimeo.js": "/website/static/js/reactPlayerVimeo.fabe341b.chunk.js",
@@ -18,10 +18,9 @@
     "reactPlayerPreview.js": "/website/static/js/reactPlayerPreview.37eab5e9.chunk.js",
     "static/js/787.c922dae8.chunk.js": "/website/static/js/787.c922dae8.chunk.js",
     "static/media/myairops-logo.jpeg": "/website/static/media/myairops-logo.a604ef01eab334f71d5e.jpeg",
-    "static/media/loadingIcon.svg": "/website/static/media/loadingIcon.498a66909d229cd1a3dd3f3477b0c9da.svg",
     "index.html": "/website/index.html",
-    "main.d2162bcb.css.map": "/website/static/css/main.d2162bcb.css.map",
-    "main.50e49dc5.js.map": "/website/static/js/main.50e49dc5.js.map",
+    "main.ac3276aa.css.map": "/website/static/css/main.ac3276aa.css.map",
+    "main.283a876b.js.map": "/website/static/js/main.283a876b.js.map",
     "reactPlayerYouTube.5b9ead27.chunk.js.map": "/website/static/js/reactPlayerYouTube.5b9ead27.chunk.js.map",
     "reactPlayerSoundCloud.bb609069.chunk.js.map": "/website/static/js/reactPlayerSoundCloud.bb609069.chunk.js.map",
     "reactPlayerVimeo.fabe341b.chunk.js.map": "/website/static/js/reactPlayerVimeo.fabe341b.chunk.js.map",
@@ -39,7 +38,7 @@
     "787.c922dae8.chunk.js.map": "/website/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2162bcb.css",
-    "static/js/main.50e49dc5.js"
+    "static/css/main.ac3276aa.css",
+    "static/js/main.283a876b.js"
   ]
 }
