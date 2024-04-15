@@ -33,6 +33,12 @@ function Home() {
           </section>
       </div>
 
+      <div className="section-container disclaimer">
+          <section id="role">
+              <p>Please use the navigation bar re-route through the website. Do not refresh or use browser buttons to navigate.</p>            
+          </section>
+      </div>
+
     </div>
   );
 }
