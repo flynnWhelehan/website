@@ -24,3 +24,7 @@ build/
 
 .vscode/
 .vs/
+*.sqlite
+*.json
+*.vsidx
+*.wsuo
