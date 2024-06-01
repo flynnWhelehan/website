@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
+import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/Myairops/MyairopsContent.js';
 
 function MyairopsProject() {
     return (
@@ -20,7 +21,7 @@ function MyairopsProject() {
             <h2 className="title">My Role</h2>
             <div className="section-container">
                 <section id="role">
-                    <p>I lead the delivery of an AI-powered data processing solution at <a href="https://myairops.com/">Myairops</a>, a software provider for flight operations management.</p>            
+                    <div>{MYAIROPS_ROLE.content}</div>      
                 </section>
             </div>
 
@@ -38,39 +39,39 @@ function MyairopsProject() {
                 <ul>
                     <li className="bullet-container">
                         <div className="bullet-header">C# Development</div>
-                        <div className="bullet-text">Developing an effective set of data models and services with sophisticated software techniques like dependency injection.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.development}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">DevOps</div>
-                        <div className="bullet-text">Managing the automated build and deployment pipelines of respositories through Azure DevOps.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.devops}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">AI Services</div>
-                        <div className="bullet-text">Integrating with Azure Document Intelligence to train custom models and interact with the API to facilitate data processing capabilities.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.ai_services}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Cloud Services</div>
-                        <div className="bullet-text">Making our solution available through deployed Azure Functions and Power Automate workflows, and interacting with cloud APIs.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.cloud_services}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Product Ownership</div>
-                        <div className="bullet-text">Owning the product by creating well-defined epic, feature, user story, and bug work items inline with with stakeholder needs and project goals.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.product_ownership}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Kanban Strategy</div>
-                        <div className="bullet-text">Streamlining project operations to deliver continuous value with swimlanes, WIP limits, and tagged task cards.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.kanban}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Agile Collaboration</div>
-                        <div className="bullet-text">Actively participated in the agile engineering methodology employed by Myairops, engaging in standups, retrospectives, and refinements.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.agile}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Research and Development</div>
-                        <div className="bullet-text">Conducted vital R&D for the project's first phase, resulting in a comprehensive research report and a successful proof of concept.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.research}</div>
                     </li>
                     <li className="bullet-container">
                         <div className="bullet-header">Industry Procedures</div>
-                        <div className="bullet-text">Engaged in releases, bug resolutions, and company challenges.</div>
+                        <div className="bullet-text">{MYAIROPS_TECHNOLOGY_AND_SKILLS.industry}</div>
                     </li>
                 </ul>
                 </section>
