@@ -1,3 +1,7 @@
+body {
+    padding-bottom: 100px; 
+}
+
 .video-container {
     position: relative;
     display: flex;
@@ -32,23 +36,34 @@
     transition: transform 0.3s ease-in-out;
 }
 
-#technology {
-    text-align: left;
-}
-
 #technology ul {
-  padding-right: 1em;
-  margin: 0;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center; 
+    padding-right: 1em;
 }
 
-#technology li {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
+#technology li.last-row {
+    margin-bottom: 0;
 }
 
 #technology li {
     list-style-type: none;
+    margin-bottom: 15%;
+}
+
+#technology li:last-child {
+    margin-bottom: 0;
+}
+
+li {
+    cursor: pointer; 
+}
+
+.bullet-container:hover .bullet-text {
+    opacity: 1;
+    max-height: 100px;
 }
 
 .bullet-header {
@@ -57,5 +72,27 @@
 }
 
 .bullet-text {
-    font-size: 0.9em;
+    opacity: 0;
+    max-height: 0;
+    overflow: visible;
+    transition: opacity 0.3s ease, max-height 0.35s ease;
+    margin-bottom: 10%;
+}
+
+.bullet-container:not(.inactive):hover .bullet-text {
+    opacity: 1;
+    max-height: 100px;
+    transition-delay: 0.25s; 
+}
+
+.bullet-header::after {
+    content: '▼';
+    font-size: 0.5em;
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.bullet-container:hover .bullet-header::after {
+    transform: rotate(180deg);
 }

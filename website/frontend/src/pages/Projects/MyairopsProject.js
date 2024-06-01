@@ -35,26 +35,44 @@ function MyairopsProject() {
             <h2 className="title">Technology and Skills</h2>
             <div className="section-container">
                 <section id="technology">
-                    <ul>
-                        <li className="bullet-header"><br/>DevOps:<br/></li>
-                            <li className="bullet-text">Managing the build and deployment pipelines of our repository through Azure DevOps.</li>
-                        <li className="bullet-header"><br/>Product Ownership:</li>
-                            <li className="bullet-text">Taking charge of the product ownership role by creating well-defined epic, feature, user story, and bug work items inline with demand.</li>
-                        <li className="bullet-header"><br/>Agile:</li>
-                            <li className="bullet-text">Streamlining project operations with Kanban strategy.</li>
-                        <li className="bullet-header"><br/>AI Services:</li>
-                            <li className="bullet-text">Training data classification and extraction models with Azure Document Intelligence to meet specific processing requirements.</li>
-                        <li className="bullet-header"><br/>Cloud Services:</li>
-                            <li className="bullet-text">Making our solution available through deployed Azure Functions and Power Automate workflows, and interacting with cloud APIs.</li>
-                        <li className="bullet-header"><br/>C# Development:</li>
-                            <li className="bullet-text">Developing an effective set of data models and services with sophisticated software design techniques like dependency injection.</li>
-                        <li className="bullet-header"><br/>Collaboration:</li>
-                            <li className="bullet-text">Participation in the agile engineering methodology employed by Myairops.</li> 
-                        <li className="bullet-header"><br/>Industry procedures:</li>
-                            <li className="bullet-text">Engaged in real-world releases, bug resolutions, and company challenges.</li> 
-                        <li className="bullet-header"><br/>Research and Development:</li>
-                            <li className="bullet-text">Conducted vital R&D for the project's first phase, resulting in a comprehensive research report and a successful proof of concept.</li>
-                    </ul>
+                <ul>
+                    <li className="bullet-container">
+                        <div className="bullet-header">C# Development</div>
+                        <div className="bullet-text">Developing an effective set of data models and services with sophisticated software techniques like dependency injection.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">DevOps</div>
+                        <div className="bullet-text">Managing the automated build and deployment pipelines of respositories through Azure DevOps.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">AI Services</div>
+                        <div className="bullet-text">Integrating with Azure Document Intelligence to train custom models and interact with the API to facilitate data processing capabilities.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Cloud Services</div>
+                        <div className="bullet-text">Making our solution available through deployed Azure Functions and Power Automate workflows, and interacting with cloud APIs.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Product Ownership</div>
+                        <div className="bullet-text">Owning the product by creating well-defined epic, feature, user story, and bug work items inline with with stakeholder needs and project goals.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Kanban Strategy</div>
+                        <div className="bullet-text">Streamlining project operations to deliver continuous value with swimlanes, WIP limits, and tagged task cards.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Agile Collaboration</div>
+                        <div className="bullet-text">Actively participated in the agile engineering methodology employed by Myairops, engaging in standups, retrospectives, and refinements.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Research and Development</div>
+                        <div className="bullet-text">Conducted vital R&D for the project's first phase, resulting in a comprehensive research report and a successful proof of concept.</div>
+                    </li>
+                    <li className="bullet-container">
+                        <div className="bullet-header">Industry Procedures</div>
+                        <div className="bullet-text">Engaged in releases, bug resolutions, and company challenges.</div>
+                    </li>
+                </ul>
                 </section>
             </div>
         </div>
