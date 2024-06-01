@@ -14,14 +14,15 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 20px;
     padding: 15px;
-    max-width: 35%;
+    max-width: 40%;
     width: 100%;
     margin: 20px auto;
 }
-
-.react-player {
-    border-radius: 15px;
-    overflow: hidden;
+@media screen and (max-width: 600px) {
+  .video-container {
+    max-width: 80%;
+    margin-bottom: 15%; 
+  }
 }
 /* #endregion */
 
@@ -58,16 +59,10 @@ li {
     list-style-type: none;
     margin-bottom: 15%;
 }
-#technology li.last-row {
-    margin-bottom: 0;
-}
-#technology li:last-child {
-    margin-bottom: 0;
-}
 
 .bullet-container:hover .bullet-text {
     opacity: 1;
-    max-height: 100px;
+    transition: transform 0.35s ease;
 }
 .bullet-header {
     font-size: 1.2em;
@@ -76,23 +71,34 @@ li {
 .bullet-text {
     opacity: 0;
     max-height: 0;
-    overflow: visible;
-    transition: opacity 0.3s ease, max-height 0.35s ease;
-    margin-bottom: 10%;
+    transition: opacity 0.3s ease 0.3s, max-height ease 0.3s;
+}
+.bullet-container:not(.inactive) .bullet-text {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease 0.3s, max-height 0.35s ease 0.3s;
 }
 .bullet-container:not(.inactive):hover .bullet-text {
     opacity: 1;
-    max-height: 100px;
-    transition-delay: 0.25s; 
+    max-height: 1000px;
 }
 .bullet-header::after {
     content: '▼';
     font-size: 0.5em;
     display: inline-block;
     margin-left: 5px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease 0.3s;
 }
 .bullet-container:hover .bullet-header::after {
     transform: rotate(180deg);
+}
+@media screen and (max-width: 600px) {
+    .bullet-container {
+      margin-bottom: 1em; 
+    }
+    .bullet-text {
+      position: static;
+    }
 }
 /* #endregion */

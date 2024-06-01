@@ -92,6 +92,13 @@ section {
 .section-container a {
   color: white;
 }
+@media screen and (max-width: 600px) {
+  .section-container {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+  }
+}
 .section-break-line {
   margin: 0 auto;
   width: 75%;

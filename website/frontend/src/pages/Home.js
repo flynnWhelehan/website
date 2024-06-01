@@ -29,7 +29,7 @@ function Home() {
       <h2 className="title">What do I have planned?</h2>
       <div className="section-container">
           <section id="role">
-              <p>Beyond this, I’m considering a challenging software role to elevate my career, or a compelling PhD opportunity.</p>            
+              <p>Beyond my master's year, I’m considering a challenging software role to elevate my career, or a compelling PhD opportunity.</p>            
           </section>
       </div>
     </div>

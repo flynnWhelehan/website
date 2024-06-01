@@ -60,20 +60,23 @@
 }
 
 .current-title-container {
-  /* Add overflow and text-overflow properties */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  /* Center the text */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 12px; /* Add some padding to create space around the text */
-  margin: auto; /* Add this to center the title */
+  padding: 5px 12px; 
+  margin: auto; 
 }
 
 .current-title-container.shrink {
-  /* Add background color and border radius */
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust color and opacity as needed */
-  border-radius: 15px; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 15px; 
+}
+
+@media screen and (max-width: 600px) {
+  .current-title-container {
+    display: none;
+  }
 }
