@@ -32,13 +32,6 @@ function Home() {
               <p>Beyond this, I’m considering a challenging software role to elevate my career, or a compelling PhD opportunity.</p>            
           </section>
       </div>
-
-      <div className="section-container disclaimer">
-          <section id="role">
-              <p>Please use the navigation bar re-route through the website. Do not refresh or use browser buttons to navigate.</p>            
-          </section>
-      </div>
-
     </div>
   );
 }
