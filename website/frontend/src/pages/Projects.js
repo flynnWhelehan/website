@@ -25,7 +25,7 @@ function Projects() {
                 <title>Flynn's project and experience page</title>
                 <meta name="Projects and Experience" content="Web site in progress..." />
             </Helmet>
-            <h1>Projects and Experience</h1>
+            <h1 className="projects-title">Projects and Experience</h1>
             <div className="project-grid">
                 {projects.map((project, index) => (
                     <Link to={project.link} key={index} className={`project-panel ${project.comingSoon ? 'coming-soon' : ''}`}>
