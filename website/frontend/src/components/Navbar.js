@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './styles/Navbar.css';
 import { Link } from 'react-router-dom';
-import FwLogo from '../images/favicon/favicon-32x32.png';
+import FwLogo from '../images/favicon/android-chrome-512x512.png';
 
 function Navbar() {
   const [shrink, setShrink] = useState(false);
@@ -17,7 +17,6 @@ function Navbar() {
       setOpaque(false);
     }
 
-    // Get all title elements
     const titles = Array.from(document.querySelectorAll('.title'));
     let found = false;
     for (let i = titles.length - 1; i >= 0; i--) {
