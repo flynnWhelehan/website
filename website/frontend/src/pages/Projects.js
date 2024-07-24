@@ -8,10 +8,16 @@ import royalHackaway from '../images/royal-hackaway.png';
 import framaCLogo from '../images/frama-c.jpg';
 import zooplaLogo from '../images/zoopla-logo.jpg';
 import strandPalaceLogo from '../images/strand-palace.jpg';
+import fwLogo from '../images/android-chrome-512x512-2x1.png';
+import googleXFormulaELogo from '../images/google-x-formula-e.jpg';
+import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Projects() {
     const projects = [
         { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
+        { name: 'FW Project', thumbnail: fwLogo, comingSoon: true},
+        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, comingSoon: true},
+        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, comingSoon: true},
         { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, comingSoon: true},
         { name: 'Formal Software Verification', thumbnail: framaCLogo, comingSoon: true},
         { name: 'Vehicle Accident Scene Reconstruction Research', thumbnail: canBusDiagram, comingSoon: true},
