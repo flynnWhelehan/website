@@ -2,18 +2,18 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
-import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/Myairops/MyairopsContent.js';
+import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/MyairopsContent.js';
 
 function MyairopsProject() {
     return (
         <div>
             <Helmet>
-                <title>Myairops</title>
+                <title>myairops</title>
                 <meta name="description" content="Details about my project at Myairops" />
             </Helmet>
             <h1>
-                Myairops Industrial Placement<br/> 
-                <span className="small-text">[July 2023 to Present]</span>
+                myairops Industrial Placement<br/> 
+                <span className="small-text">[July 2023 to August 2024]</span>
             </h1>
 
             <div className="section-break-line" />
@@ -21,7 +21,7 @@ function MyairopsProject() {
             <h2 className="title">My Role</h2>
             <div className="section-container">
                 <section id="role">
-                    <div>{MYAIROPS_ROLE.content}</div>      
+                    <div>{MYAIROPS_ROLE.content}{MYAIROPS_ROLE.update}</div>   
                 </section>
             </div>
 

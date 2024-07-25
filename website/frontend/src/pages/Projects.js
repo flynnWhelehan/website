@@ -16,9 +16,9 @@ function Projects() {
     const projects = [
         { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
         { name: 'FW Project', thumbnail: fwLogo, comingSoon: true},
-        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, comingSoon: true},
-        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, comingSoon: true},
-        { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, comingSoon: true},
+        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-project'},
+        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-project'},
+        { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, link: '/hackaway-v7-project'},
         { name: 'Formal Software Verification', thumbnail: framaCLogo, comingSoon: true},
         { name: 'Vehicle Accident Scene Reconstruction Research', thumbnail: canBusDiagram, comingSoon: true},
         { name: 'Zoopla - IT Support', thumbnail: zooplaLogo, comingSoon: true},
