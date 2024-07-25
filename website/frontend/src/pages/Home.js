@@ -15,21 +15,21 @@ function Home() {
       <h2 className="title">Who am I?</h2>
       <div className="section-container">
           <section id="role">
-              <p>I am devoted to the routines of software engineering and specialising in artificial intelligence. I am orienting myself toward a rewarding career where I can collaborate and add value, healthily.</p>            
+              <p>I’m a software engineer and specialise in artificial intelligence. I am orienting myself toward a rewarding career where I can collaborate and add value, healthily.</p>            
           </section>
       </div>
 
       <h2 className="title">What do I do?</h2>
       <div className="section-container">
           <section id="role">
-              <p>Currently, I am intermitting my university studies with an exciting <Link to="/myairops-project">year in industry opportunity</Link>, to ignite my career early! I am learning and providing within the industry, before returning to Royal Holloway to excel in my master’s year.</p>            
+              <p>I have spent the last year intermitting my university studies with an exciting <Link to="/myairops-project">industrial placement</Link>, to ignite my career early. After learning and providing within the industry, I’m ready to return to Royal Holloway and excel in my master’s year.</p>            
           </section>
       </div>
 
       <h2 className="title">What do I have planned?</h2>
       <div className="section-container">
           <section id="role">
-              <p>Beyond my master's year, I’m considering a challenging software role to elevate my career, or a compelling PhD opportunity.</p>            
+              <p>Beyond this, I’ll take on a challenging software role to elevate my career.</p>            
           </section>
       </div>
     </div>
