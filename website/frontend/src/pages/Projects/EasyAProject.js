@@ -12,7 +12,7 @@ function EasyAProject() {
             </Helmet>
             <h1>
                 EasyA x Vechain Hackathon - San Francisco<br/> 
-                <span className="small-text">[June 2023]</span>
+                <span className="small-text">[June 2024]</span>
             </h1>
 
             <div className="section-break-line" />

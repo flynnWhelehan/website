@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import MyairopsProject from './pages/Projects/MyairopsProject';
 import EasyAProject from './pages/Projects/EasyAProject';
+import GoogleFormulaEProject from './pages/Projects/GoogleFormulaEProject';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/myairops-project" element={<MyairopsProject />} />
           <Route path="/easya-project" element={<EasyAProject />} />
+          <Route path="/google-formulae-project" element={<GoogleFormulaEProject />} />
         </Routes>
       </div>
     </Router>
