@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
-import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/Myairops/MyairopsContent.js';
+import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/MyairopsContent.js';
 
 function MyairopsProject() {
     return (
