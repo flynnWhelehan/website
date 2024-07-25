@@ -1,0 +1,10 @@
+const HACKAWAY_V7_CONTENT = {
+    summary: <p>This is a hackathon hosted by my University (Royal Holloway)!<br/>The idea of blending the physical actions of playing instruments with the virtual world seemed like a creative and challenging project, hence 'Wii Will Rock You' was conceptualized.
+                <br/><br/>'Wii Will Rock You' utilizes tone recognition software to recognize the notes being played on a real guitar. Simultaneously, Wii balance boards are used to read movements from backup dancers, creating an interactive music and dance experience. Imagine Guitar Hero with dancers (up to 4!) on Wii boards!
+                <br/><br/>We created signal processing algorithms to detect pitch from the guitar in Go. The load cells in the Wii Balance Boards were accessed through Bluetooth, via the WebHID API and their readings were processed to detect the dance movements.</p>,
+    challenges:<p>One of the biggest challenges was getting the Wii balance board to communicate effectively with our system, as most of the code to interact with Wii Balance boards was written over 10 years ago. We also had difficulty in setting up the tone recognition to accurately detect notes from the guitar, however we managed to overcome all of these problems.</p>,
+    accomplishments:<p>We are proud of the way we integrated hardware and software in this project. Achieving seamless, real time interaction between the guitar, Wii balance boards, all in one page. We were very doubtful that we'd be able to get the Wii balance boards to work, as we tried in a Hackathon before and failed due to various issues and we weren't expected to get them working this time!
+                        <br/><br/>Throughout the process, we acquired a great deal of knowledge on signal processing, hardware-software interfacing and tone recognition. It was also a lesson in perseverance and team collaboration.</p>,
+};
+
+export { HACKAWAY_V7_CONTENT };
