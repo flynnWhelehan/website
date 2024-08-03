@@ -8,11 +8,13 @@ import MyairopsProject from './pages/Projects/MyairopsProject';
 import EasyAProject from './pages/Projects/EasyAProject';
 import GoogleFormulaEProject from './pages/Projects/GoogleFormulaEProject';
 import HackawayV7Project from './pages/Projects/HackawayV7Project';
+import GoogleTagManager from './components/GoogleTagManager';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <GoogleTagManager />
         <Navbar/>
         <Routes>
           <Route path="/website" element={<Home />} />
