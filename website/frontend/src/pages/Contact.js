@@ -4,7 +4,7 @@ import './Styles/Projects.css';
 function Contact() {
     return (
         <div className="contact-page">
-        <h1>Contact Me</h1>
+        <h1>Contact</h1>
         <p>
             <a href="https://www.linkedin.com/in/flynnwhelehan/" target="_blank" rel="noopener noreferrer">
             Connect with me on LinkedIn
