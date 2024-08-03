@@ -14,7 +14,7 @@ import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Projects() {
     const projects = [
-        { name: 'Myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
+        { name: 'myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
         { name: 'FW Project', thumbnail: fwLogo, comingSoon: true},
         { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-project'},
         { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-project'},
