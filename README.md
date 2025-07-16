@@ -1,4 +1,4 @@
-# Website - [Flynn's Website](https://flynnwhelehan.github.io/website/)
+# [Flynn's Website](https://flynnwhelehan.github.io/website/)
 - Nov 2023 - Present
 
 I am working on a portfolio-based website. Starting simple, it will be a place to showcase some of what I get up to, while trying out some new things. 
