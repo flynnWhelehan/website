@@ -1,0 +1,48 @@
+.page-section {
+  margin-bottom: 3rem;
+}
+
+.page-section--compact {
+  margin-bottom: 1.5rem;
+}
+
+.section-container {
+  background-color: #333;
+  color: white;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  max-width: 50rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.section-container a {
+  color: #38B4E7;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.section-container a:hover {
+  color: #5BC0EB;
+}
+
+.section-container a:focus {
+  outline: 2px solid #38B4E7;
+  outline-offset: 2px;
+  border-radius: 0.125rem;
+}
+
+.section-content p {
+  margin: 0;
+}
+
+@media screen and (max-width: 48rem) {
+  .section-container {
+    max-width: 90%;
+    padding: 1rem;
+    margin: 0.5rem auto;
+  }
+}
