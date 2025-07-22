@@ -1,11 +1,3 @@
-.page-section {
-  margin-bottom: 3rem;
-}
-
-.page-section--compact {
-  margin-bottom: 1.5rem;
-}
-
 .section-container {
   background-color: #333;
   color: white;
@@ -19,30 +11,26 @@
   line-height: 1.6;
 }
 
-.section-container a {
-  color: #38B4E7;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.section-container a:hover {
-  color: #5BC0EB;
-}
-
-.section-container a:focus {
-  outline: 2px solid #38B4E7;
-  outline-offset: 2px;
-  border-radius: 0.125rem;
+.section-content h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
 .section-content p {
-  margin: 0;
+  margin: 0 0 1.5rem 0;
 }
 
-@media screen and (max-width: 48rem) {
-  .section-container {
-    max-width: 90%;
-    padding: 1rem;
-    margin: 0.5rem auto;
-  }
+.section-content .highlight-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #9b9b9b1a;
+  border-radius: 0.5rem;
+  border-left: 4px solid #ffffff;
+}
+
+.highlight-box strong {
+  display: block;
+  margin-bottom: 0.25rem;
 }

@@ -5,7 +5,7 @@ import FwLogo from '../images/favicon/android-chrome-512x512.png';
 import './styles/Navbar.css';
 
 const Navbar = () => {
-  const { shouldShrink, shouldShowOpaque, currentTitle } = useScrollHandler();
+  const { shouldShrink, shouldShowOpaque } = useScrollHandler();
 
   const navbarClasses = [
     'navbar',
@@ -16,11 +16,6 @@ const Navbar = () => {
   const logoClasses = [
     'navbar__logo',
     shouldShrink && 'navbar__logo--shrink'
-  ].filter(Boolean).join(' ');
-
-  const titleContainerClasses = [
-    'navbar__title-container',
-    shouldShrink && currentTitle && 'navbar__title-container--shrink'
   ].filter(Boolean).join(' ');
 
   return (
@@ -47,23 +42,7 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
-          <li role="none">
-            <Link 
-              to="/contact" 
-              className="navbar__link" 
-              role="menuitem"
-              aria-label="Contact information"
-            >
-              Contact
-            </Link>
-          </li>
         </ul>
-        
-        {currentTitle && (
-          <div className={titleContainerClasses} aria-live="polite">
-            <span className="navbar__current-title">{currentTitle}</span>
-          </div>
-        )}
       </div>
     </nav>
   );
