@@ -34,10 +34,10 @@
 }
 
 .navbar__logo {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border: 2px solid #ffffff;
-  border-radius: 50%;
+  border-radius: 75%;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
@@ -58,12 +58,13 @@
 }
 
 .navbar__link {
+  font-size: 1.5rem;
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   transition: all 0.3s ease;
-  font-weight: 500;
+  font-weight: 2rem;
 }
 
 .navbar__link:hover {
@@ -71,6 +72,6 @@
 }
 
 .navbar__link:focus {
-  outline: 2px solid #000000;
+  outline: 2px solid #ffffff;
   outline-offset: 2px;
 }

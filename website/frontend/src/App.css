@@ -5,7 +5,7 @@ body {
   font-size: 21px; 
   font-weight: bold; 
   font-family: 'Exo 2', sans-serif; 
-  background-color: #4fa1a1;
+  background-color: #666666f8;
 }
 
 .small-text {
@@ -58,7 +58,6 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(14px + 2vmin);
-  color: white;
 }
 
 .App-link {
