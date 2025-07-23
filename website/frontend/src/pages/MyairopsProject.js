@@ -1,37 +1,43 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
-import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
-import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../Content/Projects/MyairopsContent.js';
+import { PageSection } from '../components/PageSection';
+import VideoPlayer from '../components/VideoPlayer';
+import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../content/MyairopsProjectContent.js';
 
 function MyairopsProject() {
     return (
-        <div>
+        <main>
             <Helmet>
-                <title>myairops</title>
-                <meta name="description" content="Details about my project at Myairops" />
+                <title>myairops Industrial Placement</title>
+                <meta name="description" content="Details about my industrial placement at myairops" />
             </Helmet>
-            <h1>
-                myairops Industrial Placement<br/> 
-                <span className="small-text">[July 2023 to August 2024]</span>
-            </h1>
+            
+            <header>
+                <h1 className="title">
+                    myairops Industrial Placement<br/> 
+                    <span className="small-text">[July 2023 to August 2024]</span>
+                </h1>
+                <div className="section-break-line" aria-hidden="true" />
+            </header>
 
-            <div className="section-break-line" />
-
-            <h2 className="title">My Role</h2>
-            <div className="section-container">
-                <section id="role">
-                    <div>{MYAIROPS_ROLE.content}{MYAIROPS_ROLE.update}</div>   
-                </section>
-            </div>
+            <PageSection
+                id="role"
+                title="My Role"
+                variant="default"
+            >
+                <div>
+                    {MYAIROPS_ROLE.content}
+                    {MYAIROPS_ROLE.update}
+                </div>
+            </PageSection>
 
             <h2 className="title">Video Interview</h2>
-            <section id="video-interview">
-                <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/RcioWj4IRUc' />
-                    <a className='blog-link' href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Click here to view the full blog post</a>
-                </div>
-            </section>
+            <VideoPlayer 
+                url={"https://youtu.be/RcioWj4IRUc"}
+                ctaUrl={"https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/"}
+                ctaText="Click here to view the full blog post"
+                title="myairops Industrial Placement Interview"
+            />
 
             <h2 className="title">Technology and Skills</h2>
             <div className="section-container">
@@ -76,7 +82,7 @@ function MyairopsProject() {
                 </ul>
                 </section>
             </div>
-        </div>
+        </main>
     );
 }
 

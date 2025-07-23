@@ -1,38 +1,30 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { PageSection } from '../components/PageSection';
+import { HOME_CONTENT } from '../content/HomeContent';
 
 function Home() {
+  const { hero, section, meta } = HOME_CONTENT;
+  
   return (
-    <div>
+    <main>
       <Helmet>
-        <title>Flynn's Homepage</title>
-        <meta name="The hub for the FW website project." content="Web site in progress..." />
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+        <meta name="keywords" content={meta.keywords} />
       </Helmet>
-      <h1 className="title">The FW Project</h1>
-      <div className="section-break-line" />
 
-      <h2 className="title">Who am I?</h2>
-      <div className="section-container">
-          <section id="role">
-              <p>I’m a software engineer and specialise in artificial intelligence. I am orienting myself toward a rewarding career where I can collaborate and add value, healthily.</p>            
-          </section>
-      </div>
+      <header>
+        <h1 className="title">{hero.title}</h1>
+        <div className="section-break-line" aria-hidden="true" />
+      </header>
 
-      <h2 className="title">What do I do?</h2>
-      <div className="section-container">
-          <section id="role">
-              <p>I have spent the last year intermitting my university studies with an exciting <Link to="/myairops-project">industrial placement</Link>, to ignite my career early. After learning and providing within the industry, I’m ready to return to Royal Holloway and excel in my master’s year.</p>            
-          </section>
-      </div>
-
-      <h2 className="title">What do I have planned?</h2>
-      <div className="section-container">
-          <section id="role">
-              <p>Beyond this, I’ll take on a challenging software role to elevate my career.</p>            
-          </section>
-      </div>
-    </div>
+      <PageSection
+        id={section.id}
+        title={section.title}
+      >
+        {section.content}
+      </PageSection>
+    </main>
   );
 }
 

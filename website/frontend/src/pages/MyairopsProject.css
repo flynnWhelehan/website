@@ -1,54 +1,7 @@
-/* #region General */
 body {
     padding-bottom: 100px; 
 }
-/* #endregion */
 
-/* #region Video Player*/
-.video-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    border-radius: 33px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    padding: 15px;
-    max-width: 40%;
-    width: 100%;
-    margin: 20px auto;
-}
-@media screen and (max-width: 1300px) {
-  .video-container {
-    max-width: 50%; 
-  }
-}
-@media screen and (max-width: 850px) {
-    .video-container {
-      max-width: 80%;
-      margin-bottom: 15%; 
-    }
-  }
-/* #endregion */
-
-/* #region Links */
-.blog-link {
-    position: absolute;
-    right: 20px;
-    bottom: -30px;
-    background-color: #38B4E7;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    animation: pulse 5s infinite;
-    transition: transform 0.3s ease-in-out;
-}
-/* #endregion */
-
-/* #region Bullet Points */
 #technology ul {
     padding-top: 2%;
     display: grid;
@@ -109,4 +62,3 @@ li {
       position: static;
     }
 }
-/* #endregion */
