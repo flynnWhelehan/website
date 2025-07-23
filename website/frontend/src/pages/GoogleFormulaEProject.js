@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import ReactPlayer from 'react-player';
 import { PageSection } from '../components/PageSection';
+import VideoPlayer from '../components/VideoPlayer';
 import { GOOGLE_FORMULAE_CONTENT } from '../content/GoogleFormulaEProjectContent.js';
 
 function GoogleFormulaEProject() {
@@ -32,11 +32,10 @@ function GoogleFormulaEProject() {
             </PageSection>
 
             <h2 className="title">Formula E Footage</h2>
-            <section id="footage">
-                <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/qNcgbLCXKBk' />
-                </div>
-            </section>
+            <VideoPlayer 
+                url="https://youtu.be/qNcgbLCXKBk"
+                title="Formula E Footage"
+            />
         </main>
     );
 }

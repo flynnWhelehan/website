@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 import { Helmet } from 'react-helmet';
 import { PageSection } from '../components/PageSection';
+import VideoPlayer from '../components/VideoPlayer';
 import { HACKAWAY_V7_CONTENT } from '../content/HackawayV7ProjectContent.js';
 
 function HackawayV7Project() {
@@ -33,11 +33,10 @@ function HackawayV7Project() {
             </PageSection>
 
             <h2 className="title">Testing the project</h2>
-            <section id="testing">
-                <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/7UqkkwYjFqY' />
-                </div>
-            </section>
+            <VideoPlayer 
+                url="https://youtu.be/7UqkkwYjFqY"
+                title="Testing the Project"
+            />
         </main>
     );
 }

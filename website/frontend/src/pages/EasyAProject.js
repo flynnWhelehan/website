@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import ReactPlayer from 'react-player';
 import { PageSection } from '../components/PageSection';
+import VideoPlayer from '../components/VideoPlayer';
 import { EASYA_CONTENT } from '../content/EasyAProjectContent.js';
 
 function EasyAProject() {
@@ -33,11 +33,10 @@ function EasyAProject() {
             </PageSection>
 
             <h2 className="title">Vlog</h2>
-            <section id="vlog">
-                <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/ThpVU_8BdE8?si=4gxEBwgGqaohIIuO' />
-                </div>
-            </section>
+            <VideoPlayer 
+                url="https://youtu.be/ThpVU_8BdE8?si=4gxEBwgGqaohIIuO"
+                title="EasyA x Vechain Hackathon Vlog"
+            />
         </main>
     );
 }

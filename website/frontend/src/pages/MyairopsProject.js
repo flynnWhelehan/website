@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
-import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
 import { PageSection } from '../components/PageSection';
+import VideoPlayer from '../components/VideoPlayer';
 import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../content/MyairopsProjectContent.js';
 
 function MyairopsProject() {
@@ -32,12 +32,12 @@ function MyairopsProject() {
             </PageSection>
 
             <h2 className="title">Video Interview</h2>
-            <section id="video-interview">
-                <div className='video-container'>
-                    <ReactPlayer className='react-player' url='https://youtu.be/RcioWj4IRUc' />
-                    <a className='blog-link' href="https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/">Click here to view the full blog post</a>
-                </div>
-            </section>
+            <VideoPlayer 
+                url={"https://youtu.be/RcioWj4IRUc"}
+                ctaUrl={"https://myairops.com/spotlight/2024/03/industrial-placement-update-ben-flynn/"}
+                ctaText="Click here to view the full blog post"
+                title="myairops Industrial Placement Interview"
+            />
 
             <h2 className="title">Technology and Skills</h2>
             <div className="section-container">
