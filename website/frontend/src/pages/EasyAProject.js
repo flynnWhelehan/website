@@ -1,28 +1,36 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
+import { PageSection } from '../components/PageSection';
 import { EASYA_CONTENT } from '../content/EasyAProjectContent.js';
 
 function EasyAProject() {
     return (
-        <div>
+        <main>
             <Helmet>
                 <title>EasyA x Vechain Hackathon - San Francisco</title>
                 <meta name="description" content="Details about my EasyA hackathon project" />
             </Helmet>
-            <h1>
-                EasyA x Vechain Hackathon - San Francisco<br/> 
-                <span className="small-text">[June 2024]</span>
-            </h1>
+            
+            <header>
+                <h1 className="title">
+                    EasyA x Vechain Hackathon - San Francisco<br/> 
+                    <span className="small-text">[June 2024]</span>
+                </h1>
+                <div className="section-break-line" aria-hidden="true" />
+            </header>
 
-            <div className="section-break-line" />
-
-            <h2 className="title">The Trip</h2>
-            <div className="section-container">
-                <section id="trip">
-                    <div>{EASYA_CONTENT.performance}{EASYA_CONTENT.summary}{EASYA_CONTENT.cta}</div>   
-                </section>
-            </div>
+            <PageSection
+                id="trip"
+                title="The Trip"
+                variant="default"
+            >
+                <div>
+                    {EASYA_CONTENT.performance}
+                    {EASYA_CONTENT.summary}
+                    {EASYA_CONTENT.cta}
+                </div>
+            </PageSection>
 
             <h2 className="title">Vlog</h2>
             <section id="vlog">
@@ -30,7 +38,7 @@ function EasyAProject() {
                     <ReactPlayer className='react-player' url='https://youtu.be/ThpVU_8BdE8?si=4gxEBwgGqaohIIuO' />
                 </div>
             </section>
-        </div>
+        </main>
     );
 }
 

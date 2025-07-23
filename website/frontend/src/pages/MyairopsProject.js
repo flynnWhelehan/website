@@ -1,28 +1,35 @@
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
 import './MyairopsProject.css';
+import { PageSection } from '../components/PageSection';
 import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../content/MyairopsProjectContent.js';
 
 function MyairopsProject() {
     return (
-        <div>
+        <main>
             <Helmet>
-                <title>myairops</title>
-                <meta name="description" content="Details about my project at Myairops" />
+                <title>myairops Industrial Placement</title>
+                <meta name="description" content="Details about my industrial placement at myairops" />
             </Helmet>
-            <h1>
-                myairops Industrial Placement<br/> 
-                <span className="small-text">[July 2023 to August 2024]</span>
-            </h1>
+            
+            <header>
+                <h1 className="title">
+                    myairops Industrial Placement<br/> 
+                    <span className="small-text">[July 2023 to August 2024]</span>
+                </h1>
+                <div className="section-break-line" aria-hidden="true" />
+            </header>
 
-            <div className="section-break-line" />
-
-            <h2 className="title">My Role</h2>
-            <div className="section-container">
-                <section id="role">
-                    <div>{MYAIROPS_ROLE.content}{MYAIROPS_ROLE.update}</div>   
-                </section>
-            </div>
+            <PageSection
+                id="role"
+                title="My Role"
+                variant="default"
+            >
+                <div>
+                    {MYAIROPS_ROLE.content}
+                    {MYAIROPS_ROLE.update}
+                </div>
+            </PageSection>
 
             <h2 className="title">Video Interview</h2>
             <section id="video-interview">
@@ -75,7 +82,7 @@ function MyairopsProject() {
                 </ul>
                 </section>
             </div>
-        </div>
+        </main>
     );
 }
 
