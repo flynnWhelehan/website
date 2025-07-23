@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './styles/PageSection.css';
+import './PageSection.css';
 
 const PageSection = ({ 
   id, 

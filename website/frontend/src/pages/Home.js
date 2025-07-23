@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 import { PageSection } from '../components/PageSection';
-import { HOME_CONTENT } from './Content/HomeContent';
+import { HOME_CONTENT } from '../content/HomeContent';
 
 function Home() {
   const { hero, section, meta } = HOME_CONTENT;

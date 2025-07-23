@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
-import { GOOGLE_FORMULAE_CONTENT } from '../Content/Projects/GoogleFormulaEContent.js';
+import { GOOGLE_FORMULAE_CONTENT } from '../content/GoogleFormulaEProjectContent.js';
 
 function GoogleFormulaEProject() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { Helmet } from 'react-helmet';
-import { HACKAWAY_V7_CONTENT } from '../Content/Projects/HackawayV7Content.js';
+import { HACKAWAY_V7_CONTENT } from '../content/HackawayV7ProjectContent.js';
 
 function HackawayV7Project() {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useScrollHandler } from '../hooks/useScrollHandler';
 import FwLogo from '../images/favicon/android-chrome-512x512.png';
-import './styles/Navbar.css';
+import './Navbar.css';
 
 const Navbar = () => {
   const { shouldShrink, shouldShowOpaque } = useScrollHandler();

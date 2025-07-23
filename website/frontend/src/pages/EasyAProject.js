@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReactPlayer from 'react-player';
-import { EASYA_CONTENT } from '../Content/Projects/EasyAContent.js';
+import { EASYA_CONTENT } from '../content/EasyAProjectContent.js';
 
 function EasyAProject() {
     return (
