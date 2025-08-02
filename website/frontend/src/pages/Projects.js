@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import './Projects.css';
@@ -14,11 +13,11 @@ import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Projects() {
     const projects = [
-        { name: 'myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-project'},
+        { name: 'myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-work'},
         { name: 'FW Project', thumbnail: fwLogo, comingSoon: true},
-        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-project'},
-        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-project'},
-        { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, link: '/hackaway-v7-project'},
+        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-hackathon'},
+        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-hackathon'},
+        { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, link: '/hackaway-v7-hackathon'},
         { name: 'Formal Software Verification', thumbnail: framaCLogo, comingSoon: true},
         { name: 'Vehicle Accident Scene Reconstruction Research', thumbnail: canBusDiagram, comingSoon: true},
         { name: 'Zoopla - IT Support', thumbnail: zooplaLogo, comingSoon: true},
@@ -28,7 +27,7 @@ function Projects() {
     return (
         <div>
             <Helmet>
-                <title>Flynn's project and experience page</title>
+                <title>Project and experience</title>
                 <meta name="Projects and Experience" content="Web site in progress..." />
             </Helmet>
             <h1 className="projects-title">Projects and Experience</h1>

@@ -1,10 +1,9 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
-import { PageSection } from '../components/PageSection';
-import VideoPlayer from '../components/VideoPlayer';
-import { EASYA_CONTENT } from '../content/EasyAProjectContent.js';
+import { PageSection } from '../components/PageSection.js';
+import VideoPlayer from '../components/VideoPlayer.js';
+import { EASYA_CONTENT } from '../content/EasyAHackathonContent.js';
 
-function EasyAProject() {
+function EasyAHackathon() {
     return (
         <main>
             <Helmet>
@@ -41,4 +40,4 @@ function EasyAProject() {
     );
 }
 
-export default EasyAProject;
+export default EasyAHackathon;
