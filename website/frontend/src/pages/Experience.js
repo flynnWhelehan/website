@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import { useState } from 'react';
 import ExperienceCard from '../components/ExperienceCard';
 import './Experience.css';
 import rhulGraduation from '../images/rhul-graduation.jpg';
@@ -11,6 +12,8 @@ import googleXFormulaELogo from '../images/google-x-formula-e.jpg';
 import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Experience() {
+    const [activeFilter, setActiveFilter] = useState('all');
+
     const experience = [
         { 
             name: 'University Education', 
@@ -46,7 +49,7 @@ function Experience() {
             name: 'Vehicle Accident Scene Reconstruction Research', 
             thumbnail: canBusDiagram, 
             comingSoon: true,
-            category: 'work'
+            category: 'project'
         },
         { 
             name: 'Zoopla - IT Support', 
@@ -62,6 +65,26 @@ function Experience() {
         },
     ];
 
+    const categories = [
+        { key: 'all', label: 'All', count: experience.length },
+        { key: 'work', label: 'Work', count: experience.filter(item => item.category === 'work').length },
+        { key: 'education', label: 'Education', count: experience.filter(item => item.category === 'education').length },
+        { key: 'event', label: 'Event', count: experience.filter(item => item.category === 'event').length },
+        { key: 'project', label: 'Project', count: experience.filter(item => item.category === 'project').length }
+    ];
+
+    const filteredExperience = activeFilter === 'all' 
+        ? experience 
+        : experience.filter(item => item.category === activeFilter);
+
+    const handleFilterChange = (filterKey) => {
+        if (activeFilter === filterKey && filterKey !== 'all') {
+            setActiveFilter('all');
+        } else {
+            setActiveFilter(filterKey);
+        }
+    };
+
     return (
         <main>
             <Helmet>
@@ -74,11 +97,27 @@ function Experience() {
                 <h1 className="title">Experience</h1>
                 <div className="section-break-line" aria-hidden="true" />
             </header>
+
+            <section className="experience-filters">
+                <div className="filter-container">
+                    {categories.map((category) => (
+                        <button
+                            key={category.key}
+                            className={`filter-btn ${activeFilter === category.key ? 'filter-btn--active' : ''}`}
+                            onClick={() => handleFilterChange(category.key)}
+                            data-category={category.key}
+                        >
+                            <span className="filter-btn__label">{category.label}</span>
+                            <span className="filter-btn__count">({category.count})</span>
+                        </button>
+                    ))}
+                </div>
+            </section>
             
             <div className="experience-grid">
-                {experience.map((item, index) => (
+                {filteredExperience.map((item, index) => (
                     <ExperienceCard
-                        key={index}
+                        key={`${item.category}-${index}`}
                         name={item.name}
                         thumbnail={item.thumbnail}
                         link={item.link}
@@ -87,6 +126,12 @@ function Experience() {
                     />
                 ))}
             </div>
+
+            {filteredExperience.length === 0 && (
+                <div className="no-results">
+                    <p>No experience items found for this category.</p>
+                </div>
+            )}
         </main>
     );
 }
