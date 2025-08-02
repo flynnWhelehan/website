@@ -72,11 +72,6 @@
     z-index: 1;
 }
 
-.experiences-title {
-    margin-bottom: 2rem;
-    text-decoration: underline;
-}
-
 @media screen and (max-width: 600px) {
     .experience-grid {
         grid-template-columns: 1fr;

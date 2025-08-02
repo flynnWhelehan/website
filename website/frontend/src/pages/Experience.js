@@ -28,7 +28,7 @@ function Experience() {
                 <title>Experience</title>
                 <meta name="Experience" />
             </Helmet>
-            <h1 className="ex-title">Experience</h1>
+            <h1 className="title">Experience</h1>
             <div className="experience-grid">
                 {experience.map((experience, index) => (
                     <Link to={experience.link} key={index} className={`experience-panel ${experience.comingSoon ? 'coming-soon' : ''}`}>
