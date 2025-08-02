@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { useScrollHandler } from '../hooks/useScrollHandler';
 import FwLogo from '../images/favicon/android-chrome-512x512.png';
@@ -34,12 +33,12 @@ const Navbar = () => {
         <ul className="navbar__links" role="menubar">
           <li role="none">
             <Link 
-              to="/projects" 
+              to="/experience" 
               className="navbar__link" 
               role="menuitem"
-              aria-label="View projects"
+              aria-label="View experience"
             >
-              Projects
+              Experience
             </Link>
           </li>
         </ul>

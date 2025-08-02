@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import MyairopsWork from './pages/MyairopsWork';
 import EasyAHackathon from './pages/EasyAHackathon';
@@ -17,7 +17,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/website" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/myairops-work" element={<MyairopsWork />} />
           <Route path="/easya-hackathon" element={<EasyAHackathon />} />
           <Route path="/google-formulae-hackathon" element={<GoogleFormulaEHackathon />} />
