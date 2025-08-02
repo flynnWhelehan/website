@@ -32,7 +32,7 @@ function DegreeEducation() {
 
             <h2 className="title">Graduation</h2>
             <VideoPlayer 
-                url={"https://youtu.be/RcioWj4IRUc"}
+                url={"https://youtu.be/ODpQM9DtdpY"}
                 title="Graduation"
             />
         </main>
