@@ -1,33 +1,35 @@
-.project-grid {
+.experience-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 7.5%;
-    grid-row-gap: 30%;
+    grid-row-gap: 2rem;
     justify-content: center;
     align-items: center;
     max-width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
-.project-panel {
+.experience-panel {
     position: relative;
     overflow: hidden;
     border: 2px solid #ddd;
     border-radius: 10px;
     display: flex;
+    aspect-ratio: 2/1;
 }
 
-.project-panel img {
+.experience-panel img {
     width: 100%;
     height: 100%; 
+    object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-.project-panel:hover img {
+.experience-panel:hover img {
     transform: scale(1.1);
 }
 
-.project-panel-hover {
+.experience-panel-hover {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +45,7 @@
     transition: opacity 0.3s ease;
 }
 
-.project-panel.coming-soon:hover .project-panel-hover::before {
+.experience-panel.coming-soon:hover .experience-panel-hover::before {
     content: 'Details coming soon...';
     position: absolute;
     top: 250%;
@@ -55,11 +57,11 @@
     padding: 10px;
 }
 
-.project-panel:hover .project-panel-hover {
+.experience-panel:hover .experience-panel-hover {
     opacity: 1;
 }
 
-.project-panel.coming-soon::before {
+.experience-panel.coming-soon::before {
     content: "";
     position: absolute;
     top: 0;
@@ -70,17 +72,19 @@
     z-index: 1;
 }
 
-.projects-title {
-    margin-bottom: 15%;
+.experiences-title {
+    margin-bottom: 2rem;
     text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
-    .project-grid {
-        grid-row-gap: 20%;
+    .experience-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.5rem;
+        margin: 1.5rem auto;
     }
 
-    .project-panel-hover {
+    .experience-panel-hover {
         opacity: 1;
         position: absolute;
         height: 30px;
@@ -92,11 +96,11 @@
         height: 30px;
     }
 
-    .project-panel {
+    .experience-panel {
         margin-bottom: 20px;
     }
 
-    .project-panel.coming-soon:hover .project-panel-hover::before {
+    .experience-panel.coming-soon:hover .experience-panel-hover::before {
         font-size: 8px;
         top: 200%;
         width: 60%;

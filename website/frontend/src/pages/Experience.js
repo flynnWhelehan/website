@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import './Experience.css';
+import rhulGraduation from '../images/rhul-graduation.jpg';
 import myairopsLogo from '../images/myairops-logo.jpeg';
 import canBusDiagram from '../images/can-bus-diagram.png';
 import royalHackaway from '../images/royal-hackaway.png';
@@ -11,6 +12,7 @@ import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Experience() {
     const experience = [
+        { name: 'University Education', thumbnail: rhulGraduation, link: '/degree-education'},
         { name: 'myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-work'},
         { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-hackathon'},
         { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-hackathon'},
