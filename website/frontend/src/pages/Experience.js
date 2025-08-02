@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import ExperienceCard from '../components/ExperienceCard';
 import './Experience.css';
 import rhulGraduation from '../images/rhul-graduation.jpg';
 import myairopsLogo from '../images/myairops-logo.jpeg';
@@ -12,34 +12,82 @@ import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
 
 function Experience() {
     const experience = [
-        { name: 'University Education', thumbnail: rhulGraduation, link: '/degree-education'},
-        { name: 'myairops Industrial Placement', thumbnail: myairopsLogo, link: '/myairops-work'},
-        { name: 'Hackathon - Google x Formula E AI', thumbnail: googleXFormulaELogo, link: '/google-formulae-hackathon'},
-        { name: 'Hackathon - San Francisco EasyA x VeChain', thumbnail: easyAXVeChainLogo, link: '/easya-hackathon'},
-        { name: 'Hackathon - Royal Hackaway v7', thumbnail: royalHackaway, link: '/hackaway-v7-hackathon'},
-        { name: 'Vehicle Accident Scene Reconstruction Research', thumbnail: canBusDiagram, comingSoon: true},
-        { name: 'Zoopla - IT Support', thumbnail: zooplaLogo, comingSoon: true},
-        { name: 'Strand Palace Hotel - IT Support', thumbnail: strandPalaceLogo, comingSoon: true},
+        { 
+            name: 'University Education', 
+            thumbnail: rhulGraduation, 
+            link: '/degree-education',
+            category: 'education'
+        },
+        { 
+            name: 'myairops Industrial Placement', 
+            thumbnail: myairopsLogo, 
+            link: '/myairops-work',
+            category: 'work'
+        },
+        { 
+            name: 'Hackathon - Google x Formula E AI', 
+            thumbnail: googleXFormulaELogo, 
+            link: '/google-formulae-hackathon',
+            category: 'event'
+        },
+        { 
+            name: 'Hackathon - San Francisco EasyA x VeChain', 
+            thumbnail: easyAXVeChainLogo, 
+            link: '/easya-hackathon',
+            category: 'event'
+        },
+        { 
+            name: 'Hackathon - Royal Hackaway v7', 
+            thumbnail: royalHackaway, 
+            link: '/hackaway-v7-hackathon',
+            category: 'event'
+        },
+        { 
+            name: 'Vehicle Accident Scene Reconstruction Research', 
+            thumbnail: canBusDiagram, 
+            comingSoon: true,
+            category: 'work'
+        },
+        { 
+            name: 'Zoopla - IT Support', 
+            thumbnail: zooplaLogo, 
+            comingSoon: true,
+            category: 'work'
+        },
+        { 
+            name: 'Strand Palace Hotel - IT Support', 
+            thumbnail: strandPalaceLogo, 
+            comingSoon: true,
+            category: 'work'
+        },
     ];
 
     return (
-        <div>
+        <main>
             <Helmet>
-                <title>Experience</title>
-                <meta name="Experience" />
+                <title>Experience - Flynn Whelehan</title>
+                <meta name="description" content="My professional experience and projects" />
+                <meta name="keywords" content="experience, projects, hackathons, software engineering" />
             </Helmet>
-            <h1 className="title">Experience</h1>
+            
+            <header>
+                <h1 className="title">Experience</h1>
+                <div className="section-break-line" aria-hidden="true" />
+            </header>
+            
             <div className="experience-grid">
-                {experience.map((experience, index) => (
-                    <Link to={experience.link} key={index} className={`experience-panel ${experience.comingSoon ? 'coming-soon' : ''}`}>
-                        <img src={experience.thumbnail} alt={experience.name} />
-                        <div className={`experience-panel-hover ${experience.hoverStyle}`}>
-                            <div className="experience-panel-text">{experience.name}</div>
-                        </div>
-                    </Link>
+                {experience.map((item, index) => (
+                    <ExperienceCard
+                        key={index}
+                        name={item.name}
+                        thumbnail={item.thumbnail}
+                        link={item.link}
+                        category={item.category}
+                        comingSoon={item.comingSoon}
+                    />
                 ))}
             </div>
-        </div>
+        </main>
     );
 }
 
