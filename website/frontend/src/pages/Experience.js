@@ -16,40 +16,40 @@ function Experience() {
 
     const experience = [
         { 
-            name: 'University Education', 
+            name: 'University Education - MSci Computer Science (AI) with Year in Industry', 
             thumbnail: rhulGraduation, 
             link: '/degree-education',
             category: 'education'
         },
         { 
-            name: 'myairops Industrial Placement', 
+            name: 'myairops - Industrial Placement and Beyond', 
             thumbnail: myairopsLogo, 
             link: '/myairops-work',
             category: 'work'
         },
         { 
-            name: 'Hackathon - Google x Formula E AI', 
+            name: 'Google x Formula E AI - Hackathon', 
             thumbnail: googleXFormulaELogo, 
             link: '/google-formulae-hackathon',
             category: 'event'
         },
         { 
-            name: 'Hackathon - San Francisco EasyA x VeChain', 
+            name: 'San Francisco EasyA x VeChain - Hackathon', 
             thumbnail: easyAXVeChainLogo, 
             link: '/easya-hackathon',
             category: 'event'
         },
         { 
-            name: 'Hackathon - Royal Hackaway v7', 
+            name: 'Royal Hackaway v7 - Hackathon', 
             thumbnail: royalHackaway, 
             link: '/hackaway-v7-hackathon',
             category: 'event'
         },
         { 
-            name: 'Vehicle Accident Scene Reconstruction Research', 
+            name: 'Vehicle Accident Scene Reconstruction - Research', 
             thumbnail: canBusDiagram, 
             comingSoon: true,
-            category: 'project'
+            category: 'work'
         },
         { 
             name: 'Zoopla - IT Support', 
