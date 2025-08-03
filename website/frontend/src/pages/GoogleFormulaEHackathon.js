@@ -1,10 +1,9 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
-import { PageSection } from '../components/PageSection';
-import VideoPlayer from '../components/VideoPlayer';
-import { GOOGLE_FORMULAE_CONTENT } from '../content/GoogleFormulaEProjectContent.js';
+import { PageSection } from '../components/PageSection.js';
+import VideoPlayer from '../components/VideoPlayer.js';
+import { GOOGLE_FORMULAE_CONTENT } from '../content/GoogleFormulaEHackathonContent.js';
 
-function GoogleFormulaEProject() {
+function GoogleFormulaEHackathon() {
     return (
         <main>
             <Helmet>
@@ -40,4 +39,4 @@ function GoogleFormulaEProject() {
     );
 }
 
-export default GoogleFormulaEProject;
+export default GoogleFormulaEHackathon;

@@ -15,4 +15,4 @@ const MYAIROPS_TECHNOLOGY_AND_SKILLS = {
     industry: "Engaged in releases, bug resolutions, and company challenges."
 };
 
-export { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS};
+export { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS };

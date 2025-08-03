@@ -1,10 +1,9 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
-import { PageSection } from '../components/PageSection';
-import VideoPlayer from '../components/VideoPlayer';
-import { HACKAWAY_V7_CONTENT } from '../content/HackawayV7ProjectContent.js';
+import { PageSection } from '../components/PageSection.js';
+import VideoPlayer from '../components/VideoPlayer.js';
+import { HACKAWAY_V7_CONTENT } from '../content/HackawayV7HackathonContent.js';
 
-function HackawayV7Project() {
+function HackawayV7Hackathon() {
     return (
         <main>
             <Helmet>
@@ -41,4 +40,4 @@ function HackawayV7Project() {
     );
 }
 
-export default HackawayV7Project;
+export default HackawayV7Hackathon;

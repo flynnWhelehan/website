@@ -1,10 +1,10 @@
 import { Helmet } from 'react-helmet';
-import './MyairopsProject.css';
-import { PageSection } from '../components/PageSection';
-import VideoPlayer from '../components/VideoPlayer';
-import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../content/MyairopsProjectContent.js';
+import './MyairopsWork.css';
+import { PageSection } from '../components/PageSection.js';
+import VideoPlayer from '../components/VideoPlayer.js';
+import { MYAIROPS_ROLE, MYAIROPS_TECHNOLOGY_AND_SKILLS } from '../content/MyairopsWorkContent.js';
 
-function MyairopsProject() {
+function MyairopsWork() {
     return (
         <main>
             <Helmet>
@@ -86,4 +86,4 @@ function MyairopsProject() {
     );
 }
 
-export default MyairopsProject;
+export default MyairopsWork;

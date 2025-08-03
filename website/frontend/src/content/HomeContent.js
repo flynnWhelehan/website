@@ -9,17 +9,23 @@ export const HOME_CONTENT = {
     title: 'About',
     content: (
       <div>
-        <h3>SaaS | C#/.NET | Azure | AI</h3>
+        <h3>Product | SaaS | C#/.NET | Azure | AI</h3>
         <p>
-          Delivering impactful .NET and Azure SaaS solutions specifically within the aviation industry. 
-          My expertise lies in backend engineering, building robust RESTful APIs and event-driven microservices. 
-          I use firsthand aviation domain knowledge (from MCC/CAMO operations) to architect practical, 
-          high-value systems, including the development of an AI-powered data processing system.
+          As a backend engineer in the SaaS aviation industry, 
+          I'm experienced in developing APIs and event-driven 
+          microservices with a strong focus on customer needs 
+          and product outcomes. I incorporate aviation domain 
+          knowledge to deliver practical, high-value solutions. 
+          I work across teams to help build a high-performance 
+          culture, bringing together solid engineering standards 
+          and a clear sense of real-world impact.
         </p>
         <p>
-          My research interests include knowledge representation, high-dimensional systems, 
-          and modelling complex environments, with a focus on how AI operates meaningfully within multifaceted systems. 
-          I'm deeply curious about the intersections of human cognition and computational systems.
+          My research interests include knowledge representation, 
+          high-dimensional systems, and modelling complex environments, 
+          with a focus on how AI operates meaningfully within 
+          multifaceted systems. I'm deeply curious about the 
+          intersections of human cognition and computational systems.
         </p>
         <div className="highlight-box">
           <strong>First-Class MSci Computer Science (AI) with Year in Industry</strong>

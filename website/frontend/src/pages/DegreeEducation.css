@@ -1,0 +1,28 @@
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.module-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.module-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.module-link:hover {
+    text-decoration: underline;
+}
+
+.module-credits {
+    color: #666;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
