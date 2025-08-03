@@ -9,7 +9,7 @@ export const HOME_CONTENT = {
     title: 'About',
     content: (
       <div>
-        <h3>Prooduct | SaaS | C#/.NET | Azure | AI</h3>
+        <h3>Product | SaaS | C#/.NET | Azure | AI</h3>
         <p>
           As a backend engineer in the SaaS aviation industry, 
           I'm experienced in developing APIs and event-driven 
