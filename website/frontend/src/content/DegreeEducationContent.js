@@ -152,9 +152,9 @@ const FIFTH_YEAR_MODULES = {
         link: "/degree-modules/advanced-distributed-systems.pdf"
     },
     introductionToReinforcementLearning: {
-        title: "Introduction to Reinforcement Learning",
+        title: "Reinforcement Learning",
         credits: 15,
-        link: "/degree-modules/introduction-to-reinforcement-learning.pdf"
+        link: "/degree-modules/reinforcement-learning.pdf"
     }
 };
 
