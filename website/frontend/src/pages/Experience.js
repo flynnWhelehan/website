@@ -10,6 +10,7 @@ import zooplaLogo from '../images/zoopla-logo.jpg';
 import strandPalaceLogo from '../images/strand-palace.jpg';
 import googleXFormulaELogo from '../images/google-x-formula-e.jpg';
 import easyAXVeChainLogo from '../images/easya-x-vechain-group.jpeg';
+import healthcareThumbnail from '../images/healthcare-project.png';
 
 function Experience() {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -44,6 +45,12 @@ function Experience() {
             thumbnail: royalHackaway, 
             link: '/hackaway-v7-hackathon',
             category: 'event'
+        },
+        { 
+            name: 'Body Maintenance - AI-Powered Mole Tracking & Diagnostics', 
+            thumbnail: healthcareThumbnail, 
+            comingSoon: true,
+            category: 'project'
         },
         { 
             name: 'Vehicle Accident Scene Reconstruction - Research', 
