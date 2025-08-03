@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.0fb341ff.css",
-    "main.js": "/website/static/js/main.86f7d42e.js",
+    "main.css": "/website/static/css/main.3c33abdc.css",
+    "main.js": "/website/static/js/main.0b727d7c.js",
     "reactPlayerYouTube.js": "/website/static/js/reactPlayerYouTube.5b9ead27.chunk.js",
     "reactPlayerSoundCloud.js": "/website/static/js/reactPlayerSoundCloud.bb609069.chunk.js",
     "reactPlayerVimeo.js": "/website/static/js/reactPlayerVimeo.fabe341b.chunk.js",
@@ -18,6 +18,7 @@
     "reactPlayerPreview.js": "/website/static/js/reactPlayerPreview.37eab5e9.chunk.js",
     "static/media/easya-x-vechain-group.jpeg": "/website/static/media/easya-x-vechain-group.ea52704a0e6761129bc9.jpeg",
     "static/media/google-x-formula-e.jpg": "/website/static/media/google-x-formula-e.2b43ee3f81558ab6fba3.jpg",
+    "static/media/healthcare-project.png": "/website/static/media/healthcare-project.b6184c2b77dbb1c514d0.png",
     "static/media/royal-hackaway.png": "/website/static/media/royal-hackaway.b1ccd726bfb3aedf70d8.png",
     "static/media/can-bus-diagram.png": "/website/static/media/can-bus-diagram.cfbfa2067ba8c5ea54fc.png",
     "static/media/rhul-graduation.jpg": "/website/static/media/rhul-graduation.2234ef448739efb4bfc4.jpg",
@@ -26,8 +27,8 @@
     "static/media/myairops-logo.jpeg": "/website/static/media/myairops-logo.4d459cabfbfc6448cb1e.jpeg",
     "static/media/android-chrome-512x512.png": "/website/static/media/android-chrome-512x512.51eb6d3fbec1369370ec.png",
     "index.html": "/website/index.html",
-    "main.0fb341ff.css.map": "/website/static/css/main.0fb341ff.css.map",
-    "main.86f7d42e.js.map": "/website/static/js/main.86f7d42e.js.map",
+    "main.3c33abdc.css.map": "/website/static/css/main.3c33abdc.css.map",
+    "main.0b727d7c.js.map": "/website/static/js/main.0b727d7c.js.map",
     "reactPlayerYouTube.5b9ead27.chunk.js.map": "/website/static/js/reactPlayerYouTube.5b9ead27.chunk.js.map",
     "reactPlayerSoundCloud.bb609069.chunk.js.map": "/website/static/js/reactPlayerSoundCloud.bb609069.chunk.js.map",
     "reactPlayerVimeo.fabe341b.chunk.js.map": "/website/static/js/reactPlayerVimeo.fabe341b.chunk.js.map",
@@ -44,7 +45,7 @@
     "reactPlayerPreview.37eab5e9.chunk.js.map": "/website/static/js/reactPlayerPreview.37eab5e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fb341ff.css",
-    "static/js/main.86f7d42e.js"
+    "static/css/main.3c33abdc.css",
+    "static/js/main.0b727d7c.js"
   ]
 }
